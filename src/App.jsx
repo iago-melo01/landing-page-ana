@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logoAnaClara from '../imgs/ana_clara_logo.png'
 import heroBanner from '../imgs/mesa_de_trabalho_juridica_sofisticada.jpg'
 import whatsappLogo from '../imgs/whatsapp-logo-4456_1024.png'
-
+import fotoPerfilAnaClara from '../imgs/foto_ana_clara_perfil.jpeg'
 const whatsappUrl =
   'https://wa.me/5583998075205?text=Olá,%20gostaria%20de%20receber%20orientação%20sobre%20inventário.'
 
@@ -13,7 +13,7 @@ const trustCards = [
   },
   {
     title: 'Clareza',
-    text: 'Orientação objetiva para que cada etapa seja compreendida com segurança.',
+    text: 'Orientação objetiva para que cada etapa seja compreendida com segurança. A transparência e confiabilidade são a nossa marca.',
   },
   {
     title: 'Ética',
@@ -41,7 +41,7 @@ function Header() {
       aria-label="Cabeçalho principal"
     >
       <a className="brand" href="#inicio" aria-label="Ir para o início">
-        <img src={logoAnaClara} alt="Logotipo Dra. Ana Clara" />
+        <img src={fotoPerfilAnaClara} alt="Logotipo Dra. Ana Clara" />
       </a>
 
       <button
@@ -86,7 +86,7 @@ function Hero() {
 
       <div className="hero-content">
         <p className="eyebrow">Direito das Sucessões</p>
-        <h1>Advogada especialista em inventário e sucessões</h1>
+        <h1>Advogada especialista em Família e sucessões</h1>
         <p className="hero-subtitle">
           Orientação jurídica para conduzir inventários com técnica, clareza e
           segurança em momentos delicados.
@@ -224,7 +224,7 @@ function Footer() {
   return (
     <footer className="footer">
       <img src={logoAnaClara} alt="Logotipo Dra. Ana Clara" />
-      <p>Dra. Ana Clara | Inventário e Sucessões</p>
+      <p>Dra. Ana Clara | Família e Sucessões</p>
     </footer>
   )
 }
